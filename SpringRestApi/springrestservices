@@ -1,4 +1,1 @@
-FROM openjdk:8
-VOLUME /tmp
-COPY springrestservices.jar springrestservices.jar
-ENTRYPOINT ["java", "-jar", "springrestservices.jar"]
+FROM jgsudhakar735/springrestservices
